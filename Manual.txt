@@ -1,0 +1,14 @@
+## Manual de uso para EjemploOpenData.ipynb
+
+Primero, se tiene que importar las librerías correspondientes y definirlas
+como variables, en este caso se uso pandas, numpy y matplotlib.pyplot
+
+Segundo, es definir una variable donde se abra el archivo csv correspondiente.
+También establecer las variables  de cada dato.
+
+Con la función edu.head() se van a mostrar los primeros 5 datos
+Con la función edu.tail() se muestran los 5 últimos
+Con edu.describe() se muestran una serie operaciones estadísticas por variable
+Con edu.columns() se muestran los nombres de las columnas
+Con edu.index() se muestra los rangos de los valores que enumeran las filas
+Con edu.values() se muestra el archivo csv como lista
